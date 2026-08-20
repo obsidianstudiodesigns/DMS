@@ -267,7 +267,7 @@ Please confirm when you can conduct a free on-site measurement!`;
               </div>
 
               <p className="text-xs text-slate-300 mb-6">
-                * Includes on-site roll-formed seamless aluminium, internal concealed hangers, installation &amp; 15-Year Material Warranty.
+                * Includes on-site roll-formed seamless aluminium, internal concealed hangers, installation &amp; 10-Year Factory Material &amp; 2-Year Workmanship Warranty.
               </p>
 
               {/* Summary Items */}

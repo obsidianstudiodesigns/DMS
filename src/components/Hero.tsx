@@ -99,7 +99,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCalculator }) => {
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-red-500 flex-shrink-0" />
-              <span className="text-xs sm:text-sm text-slate-300 font-medium">15-Year Rust Warranty</span>
+              <span className="text-xs sm:text-sm text-slate-300 font-medium">10-Yr Material &amp; 2-Yr Workmanship</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-red-500 flex-shrink-0" />

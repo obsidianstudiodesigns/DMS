@@ -1,5 +1,17 @@
 import { ServiceItem, GalleryItem, ColorSwatch, Testimonial, FaqItem } from '../types';
 
+// Real high-resolution project images (Work Done 1 - 10)
+import workDone1Img from '../assets/images/work_done_1_1787224012254.jpg';
+import workDone2Img from '../assets/images/work_done_2_1787224025176.jpg';
+import workDone3Img from '../assets/images/work_done_3_1787224038893.jpg';
+import workDone4Img from '../assets/images/work_done_4_1787224053419.jpg';
+import workDone5Img from '../assets/images/work_done_5_1787224069869.jpg';
+import workDone6Img from '../assets/images/work_done_6_1787224082865.jpg';
+import workDone7Img from '../assets/images/work_done_7_1787224102243.jpg';
+import workDone8Img from '../assets/images/work_done_8_1787224120041.jpg';
+import workDone9Img from '../assets/images/work_done_9_1787224134894.jpg';
+import workDone10Img from '../assets/images/work_done_10_1787224146957.jpg';
+
 export const COMPANY_DETAILS = {
   name: "DMS Seamless Aluminium Gutters & Waterproofing",
   shortName: "DMS Gutters",
@@ -20,7 +32,10 @@ export const COMPANY_DETAILS = {
   ],
   workingHours: "Mon - Fri: 07:30 - 17:30 | Sat: 08:00 - 14:00",
   emergencyAvailable: true,
-  guaranteeYears: 15,
+  guaranteeYears: 10,
+  warrantyMaterial: "10-Year Factory Material Warranty",
+  warrantyWorkmanship: "2-Year Workmanship Warranty",
+  warrantySummary: "10 Year Factory Warranty on Material & 2 Year Workmanship Warranty",
   materialsPledge: "Marine Grade 3003-H14 Aluminium with baked-on UV resistant polyester powder coating."
 };
 
@@ -47,7 +62,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       { label: "Expected Lifespan", value: "25+ Years rust-free" }
     ],
     idealFor: "Standard & luxury residential homes, townhouses, estates, and patio extensions.",
-    warranty: "15-Year Material & 5-Year Workmanship Guarantee"
+    warranty: "10-Year Factory Material & 2-Year Workmanship Warranty"
   },
   {
     id: "industrial-gutters",
@@ -71,7 +86,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       { label: "Fixing Method", value: "Heavy-duty reinforced structural fascias & brackets" }
     ],
     idealFor: "Warehouses, shopping centers, office parks, apartment blocks, and schools.",
-    warranty: "15-Year Material & 5-Year Workmanship Guarantee"
+    warranty: "10-Year Factory Material & 2-Year Workmanship Warranty"
   },
   {
     id: "aluminium-downpipes",
@@ -94,7 +109,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       { label: "Rainwater Harvesting", value: "100% Non-toxic rainwater potable compliant" }
     ],
     idealFor: "All residential and industrial gutter downflow redirection and water tank harvesting.",
-    warranty: "15-Year Guarantee"
+    warranty: "10-Year Factory Material & 2-Year Workmanship Warranty"
   },
   {
     id: "high-pressure-cleaning",
@@ -117,7 +132,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       { label: "Recommended Interval", value: "Every 12 - 24 Months" }
     ],
     idealFor: "Roof restoration, pre-painting prep, clogged gutter systems, and tile revitalization.",
-    warranty: "Workmanship Guaranteed"
+    warranty: "2-Year Workmanship Guarantee"
   },
   {
     id: "waterproofing",
@@ -141,7 +156,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       { label: "Service Life", value: "10+ Years with simple maintenance top-coat" }
     ],
     idealFor: "Flat roofs, tiled roof valleys, parapet walls, box gutters, and chimney flashings.",
-    warranty: "Up to 10-Year Waterproofing Warranty"
+    warranty: "10-Year Material & 2-Year Workmanship Warranty"
   },
   {
     id: "roof-wall-coatings",
@@ -164,7 +179,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       { label: "Color Range", value: "Charcoal, Slate, Terracotta, Forest Green, Black" }
     ],
     idealFor: "Weathered tiled roofs, corrugated metal roofs, fascia boards, and boundary walls.",
-    warranty: "7 - 10 Year Coating Guarantee"
+    warranty: "10-Year Coating & 2-Year Workmanship Warranty"
   }
 ];
 
@@ -178,6 +193,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Cape Town & Regional Sites",
     material: "3003-H14 Marine Grade Aluminium",
     color: "Charcoal / Multi-Color Extrusion",
+    imageUrl: workDone1Img,
     highlights: [
       "Custom roll-forming machine mounted on vehicle rack",
       "Continuous length extrusion up to 35m in a single piece",
@@ -193,6 +209,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Residential Estate, Durbanville",
     material: "Fluted Aluminium Downpipe (75x50mm)",
     color: "Charcoal (RAL 7016)",
+    imageUrl: workDone2Img,
     highlights: [
       "Custom upper elbow cleared around fascia & security brackets",
       "Flush-mounted aluminium wall saddles",
@@ -208,6 +225,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Somerset West Residence",
     material: "125mm Seamless Ogee Aluminium",
     color: "Charcoal / Anthracite",
+    imageUrl: workDone3Img,
     highlights: [
       "Continuous unbroken run along main roofline",
       "Zero leak risk across brick gable transition",
@@ -223,6 +241,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Bellville Property",
     material: "75x50mm Seamless Fluted Downpipe",
     color: "Charcoal",
+    imageUrl: workDone4Img,
     highlights: [
       "Symmetrical aesthetic placement between window frames",
       "Engineered offset clearing the white concrete window plinths",
@@ -238,6 +257,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Northern Suburbs",
     material: "Aluminium Downpipe & Custom Eaves Joint",
     color: "Charcoal",
+    imageUrl: workDone5Img,
     highlights: [
       "Vertical plumb laser-level alignment",
       "Protects retaining planters from roof flood overflow",
@@ -253,6 +273,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Residential Complex",
     material: "125mm Seamless Aluminium Gutter",
     color: "Charcoal Satin",
+    imageUrl: workDone6Img,
     highlights: [
       "Concealed hanger brackets for an immaculate straight line",
       "Engineered fall for rapid storm flow discharge",
@@ -268,6 +289,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Stellenbosch / Helderberg Estate",
     material: "150mm High-Capacity Gutter & Tank Link",
     color: "Charcoal",
+    imageUrl: workDone7Img,
     highlights: [
       "Seamless integration with rainwater harvesting tank",
       "Protects outdoor patio and paved entertainment zone",
@@ -283,6 +305,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Constantia Estate",
     material: "Seamless Aluminium Gutter & Valley Sealing",
     color: "Marble White",
+    imageUrl: workDone8Img,
     highlights: [
       "Custom valley collection diverters",
       "High-pressure wash pre-treatment of green roof tiles",
@@ -298,6 +321,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     location: "Camps Bay / Atlantic Seaboard",
     material: "125mm Gutter + Fluted Downpipe",
     color: "Charcoal on White Plaster",
+    imageUrl: workDone9Img,
     highlights: [
       "Precision swan-neck clearing eaves fascia board",
       "High salt-mist coastal resistance",
@@ -306,13 +330,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 10,
-    title: "Garage & Parapet Boundary Wall Dual Drainage System",
-    category: "downpipes",
-    categoryLabel: "Boundary Drainage",
-    description: "Dual seamless downpipes with precision swan-neck offsets navigating parapet coping stones and garage entrance on a smooth contemporary grey exterior.",
+    title: "Modern Garage & Boundary Dual Downpipe Drainage System",
+    category: "residential",
+    categoryLabel: "Dual Downpipe System",
+    description: "Dual seamless charcoal aluminium downpipes with precision swan-neck offsets navigating parapet coping stones and garage entrance on a smooth contemporary grey exterior.",
     location: "Century City Residential",
-    material: "Seamless Downpipes & Parapet Waterproofing",
+    material: "Dual Seamless Downpipes & Parapet Capping",
     color: "Charcoal",
+    imageUrl: workDone10Img,
     highlights: [
       "Dual downpipe configuration for split roof slope volumes",
       "Waterproofing seal at parapet wall capping",

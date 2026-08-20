@@ -77,7 +77,7 @@ export const WhyAluminium: React.FC = () => {
           </div>
           <div className="bg-slate-900 text-white p-4 px-6 text-xs flex flex-wrap justify-between items-center gap-4">
             <span className="text-slate-300">
-              * Extruded on-site with zero joints. Backed by our <strong className="text-white font-semibold">15-Year DMS Material Guarantee</strong>.
+              * Extruded on-site with zero joints. Backed by our <strong className="text-white font-semibold">10-Year Factory Material &amp; 2-Year Workmanship Warranty</strong>.
             </span>
             <a
               href={`tel:${COMPANY_DETAILS.phoneFormatted.replace(/\s+/g, '')}`}

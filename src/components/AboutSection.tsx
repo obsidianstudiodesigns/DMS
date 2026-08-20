@@ -58,8 +58,8 @@ export const AboutSection: React.FC = () => {
                   <Award className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-sm text-slate-900 mb-1">15-Year Guarantee</h4>
-                  <p className="text-xs text-slate-600">SABS compliant marine alloy 3003-H14 with baked-on UV polyester powder finish.</p>
+                  <h4 className="font-bold text-sm text-slate-900 mb-1">10-Year &amp; 2-Year Warranty</h4>
+                  <p className="text-xs text-slate-600">10-Year factory material warranty &amp; 2-Year workmanship guarantee on all installations.</p>
                 </div>
               </div>
 

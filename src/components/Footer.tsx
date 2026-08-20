@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex items-center gap-2 text-white font-bold">
               <ShieldCheck className="w-4 h-4 text-red-500" />
-              <span>15-Year Material Warranty</span>
+              <span>10-Yr Material &amp; 2-Yr Workmanship Warranty</span>
             </div>
           </div>
 
