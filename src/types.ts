@@ -4,6 +4,7 @@ export interface ServiceItem {
   shortDesc: string;
   fullDesc: string;
   iconName: string;
+  imageUrl?: string;
   badge?: string;
   features: string[];
   specs: {

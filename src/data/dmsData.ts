@@ -12,6 +12,14 @@ import workDone8Img from '../assets/images/work_done_8_1787224120041.jpg';
 import workDone9Img from '../assets/images/work_done_9_1787224134894.jpg';
 import workDone10Img from '../assets/images/work_done_10_1787224146957.jpg';
 
+// 3D Photorealistic Service Renders
+import serviceDomesticGuttersImg from '../assets/images/service_domestic_gutters_1787230659760.jpg';
+import serviceIndustrialGuttersImg from '../assets/images/service_industrial_gutters_1787230672855.jpg';
+import serviceDownpipesImg from '../assets/images/service_downpipes_1787230685266.jpg';
+import servicePressureCleanImg from '../assets/images/service_pressure_clean_1787230704524.jpg';
+import serviceWaterproofingImg from '../assets/images/service_waterproofing_1787230716695.jpg';
+import serviceCoatingsImg from '../assets/images/service_coatings_1787230727709.jpg';
+
 export const COMPANY_DETAILS = {
   name: "DMS Seamless Aluminium Gutters & Waterproofing",
   shortName: "DMS Gutters",
@@ -46,6 +54,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc: "Custom-fitted 125mm seamless Ogee profile aluminium gutters roll-formed on-site to the exact millimeter of your home.",
     fullDesc: "Our domestic seamless gutters are manufactured on-site using our specialized mobile roll-forming machinery directly from our support vehicles. Because the gutter is extruded as one continuous length from corner to corner, there are zero joints, seams, or splices along straight runs — completely eliminating 99% of conventional gutter leak points.",
     iconName: "Home",
+    imageUrl: serviceDomesticGuttersImg,
     badge: "Most Popular",
     features: [
       "125mm (5 inch) Classic Ogee architectural profile",
@@ -70,6 +79,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc: "High-capacity 150mm commercial box & Ogee gutters engineered for large roof catchment areas and industrial warehouses.",
     fullDesc: "Designed for commercial complexes, industrial plants, schools, and large residential estates with vast roof surfaces. Our 150mm industrial gutters handle high-volume storm runoff smoothly, preventing foundation flooding and structural water ingress.",
     iconName: "Building2",
+    imageUrl: serviceIndustrialGuttersImg,
     badge: "Heavy Duty",
     features: [
       "150mm (6 inch) High-flow catchment capacity",
@@ -94,6 +104,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc: "Architectural rectangular and round fluted aluminium downpipes with custom swan-neck offsets and rainwater harvesting links.",
     fullDesc: "Precision-measured downpipes designed to navigate brick pilasters, overhangs, window frames, and boundary wall clearances. Seamlessly redirects stormwater to ground drainage channels or rainwater retention tanks.",
     iconName: "Droplet",
+    imageUrl: serviceDownpipesImg,
     features: [
       "75x50mm, 100x75mm rectangular fluted & 100mm round options",
       "Hand-crafted swan-neck elbows for tight eaves navigation",
@@ -117,6 +128,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc: "Industrial-grade high-pressure washing of roof tiles, corrugated sheets, gutters, and downpipes to remove moss, silt & grime.",
     fullDesc: "Over time, windborne dirt, fallen leaves, moss, and lichen build up in gutters and roof valleys, creating heavy blockages that force rainwater back under roof tiles. Our pressure wash team restores roof luster and clears all drainage passages.",
     iconName: "Sparkles",
+    imageUrl: servicePressureCleanImg,
     features: [
       "Industrial petrol-driven high-pressure wash systems",
       "Clears accumulated silt, decomposed leaves, and bird debris",
@@ -140,6 +152,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc: "Complete liquid rubber, fiber-reinforced acrylic membrane, and torch-on waterproofing for roofs, valleys, ridges & flashings.",
     fullDesc: "Water ingress through leaking valleys, cracked parapet walls, faulty chimney flashings, or flat concrete decks can destroy ceilings, electrical wiring, and timber trusses. DMS provides complete multi-layer waterproofing shields.",
     iconName: "ShieldCheck",
+    imageUrl: serviceWaterproofingImg,
     badge: "Zero Leaks",
     features: [
       "Parapet wall waterproofing and micro-crack capping",
@@ -164,6 +177,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortDesc: "Premium weather-shield roof paints, thermal barrier coatings, and fascia board protective treatments.",
     fullDesc: "Protect your property investment against intense South African UV rays, thermal expansion cracking, and driving coastal rain. Our specialized coatings restore vibrant roof colors while insulating your home.",
     iconName: "Paintbrush",
+    imageUrl: serviceCoatingsImg,
     features: [
       "High-build acrylic roof paint with heat reflective pigments",
       "Fascia board and barge board waterproofing and enamel coating",

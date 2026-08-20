@@ -24,11 +24,6 @@ export const AboutSection: React.FC = () => {
           
           {/* Left Column: Story & Standards */}
           <div className="lg:col-span-7">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-700 border border-red-200 text-xs font-extrabold uppercase tracking-wider mb-4">
-              <ShieldCheck className="w-3.5 h-3.5" />
-              <span>About DMS Gutters &amp; Waterproofing</span>
-            </div>
-
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight mb-6">
               Precision Engineering, Driven by Master Craftsmanship
             </h2>

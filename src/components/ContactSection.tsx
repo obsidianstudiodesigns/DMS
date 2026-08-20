@@ -21,10 +21,6 @@ export const ContactSection: React.FC = () => {
     <section id="contact" className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 text-red-600 border border-red-200 text-xs font-extrabold uppercase tracking-wider mb-3">
-            <Phone className="w-3.5 h-3.5" />
-            <span>Contact Brian Today</span>
-          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight mb-4">
             Get Your Free On-Site Quote
           </h2>
