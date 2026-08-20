@@ -12,17 +12,17 @@ export const DMSLogo: React.FC<DMSLogoProps> = ({
   size = 'md'
 }) => {
   const sizeMap = {
-    sm: 'h-9',
-    md: 'h-12',
-    lg: 'h-16',
-    xl: 'h-24'
+    sm: 'h-10 w-10',
+    md: 'h-12 w-12',
+    lg: 'h-16 w-16',
+    xl: 'h-24 w-24'
   };
 
   const isLight = variant === 'light';
 
   return (
     <div className={`flex items-center gap-3 select-none ${className}`}>
-      {/* Precision Vector Emblem matching LOGO.jpg */}
+      {/* Exact Official Vector Circular Badge Matching LOGO.jpg */}
       <div className={`relative aspect-square flex-shrink-0 ${sizeMap[size]}`}>
         <svg
           viewBox="0 0 200 200"
@@ -30,101 +30,82 @@ export const DMSLogo: React.FC<DMSLogoProps> = ({
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          {/* Outer Ring System */}
-          <circle cx="100" cy="100" r="94" stroke="#163B82" strokeWidth="4" className="opacity-90" />
-          <circle cx="100" cy="100" r="88" stroke="#DC2626" strokeWidth="2.5" className="opacity-85" />
-          <circle cx="100" cy="100" r="84" fill={isLight ? '#0B1E48' : '#FFFFFF'} />
+          {/* White Circular Badge Base */}
+          <circle cx="100" cy="100" r="95" fill="#FFFFFF" />
 
-          {/* Roof Gable Apex */}
+          {/* Outer Deep Navy Blue Ring */}
+          <circle cx="100" cy="100" r="91" stroke="#15305B" strokeWidth="6" />
+
+          {/* Inner Concentric Red Ring */}
+          <circle cx="100" cy="100" r="84" stroke="#D32729" strokeWidth="2.5" />
+
+          {/* Navy Blue Roof Gable with Upward Outward Gutter Wings */}
           <path
-            d="M 46 88 L 100 36 L 154 88"
-            stroke="#163B82"
-            strokeWidth="11"
+            d="M 32 76 L 50 96 L 100 36 L 150 96 L 168 76"
+            stroke="#15305B"
+            strokeWidth="13"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
 
-          {/* Red Ventilation Slat Bars in Gable Roof */}
-          <path d="M 90 48 L 110 48" stroke="#DC2626" strokeWidth="3" strokeLinecap="round" />
-          <path d="M 83 55 L 117 55" stroke="#DC2626" strokeWidth="3" strokeLinecap="round" />
-          <path d="M 76 62 L 124 62" stroke="#DC2626" strokeWidth="3" strokeLinecap="round" />
-          <path d="M 69 69 L 131 69" stroke="#DC2626" strokeWidth="3" strokeLinecap="round" />
-          <path d="M 62 76 L 138 76" stroke="#DC2626" strokeWidth="3.2" strokeLinecap="round" />
+          {/* Red Stepped Pyramid Louver / Slat Grid inside Roof Apex */}
+          <path d="M 91 52 L 109 52" stroke="#D32729" strokeWidth="3.5" strokeLinecap="butt" />
+          <path d="M 83 60 L 117 60" stroke="#D32729" strokeWidth="3.5" strokeLinecap="butt" />
+          <path d="M 75 68 L 125 68" stroke="#D32729" strokeWidth="3.5" strokeLinecap="butt" />
+          <path d="M 67 76 L 133 76" stroke="#D32729" strokeWidth="3.5" strokeLinecap="butt" />
 
-          {/* Bold DMS Text inside Emblem */}
+          {/* Bold Navy DMS Typography */}
           <text
             x="100"
-            y="108"
+            y="104"
             textAnchor="middle"
-            fontFamily="Montserrat, sans-serif"
+            fontFamily="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
             fontWeight="900"
-            fontSize="30"
-            fill={isLight ? '#FFFFFF' : '#163B82'}
-            letterSpacing="2"
+            fontSize="28"
+            fill="#15305B"
+            letterSpacing="1"
           >
             DMS
           </text>
 
-          {/* Gutter Shield Upward Wings / Chevron Base */}
-          <path
-            d="M 32 75 L 44 98 L 74 98"
-            stroke="#163B82"
-            strokeWidth="8"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M 168 75 L 156 98 L 126 98"
-            stroke="#163B82"
-            strokeWidth="8"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-
-          {/* Red Subtitle in Circle Badge */}
+          {/* Red Subtitle Line 1: Seamless Aluminium Gutters */}
           <text
             x="100"
-            y="126"
+            y="122"
             textAnchor="middle"
-            fontFamily="Montserrat, sans-serif"
-            fontWeight="800"
-            fontSize="8.5"
-            fill="#DC2626"
-            letterSpacing="0.5"
+            fontFamily="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+            fontWeight="700"
+            fontSize="9"
+            fill="#D32729"
+            letterSpacing="0.2"
           >
-            SEAMLESS ALUMINIUM GUTTERS
-          </text>
-          <text
-            x="100"
-            y="138"
-            textAnchor="middle"
-            fontFamily="Montserrat, sans-serif"
-            fontWeight="800"
-            fontSize="8.5"
-            fill="#DC2626"
-            letterSpacing="0.5"
-          >
-            &amp; WATERPROOFING
+            Seamless Aluminium Gutters
           </text>
 
-          {/* Decorative water droplets accent */}
-          <circle cx="100" cy="154" r="2.5" fill="#2563EB" />
-          <circle cx="91" cy="155" r="1.5" fill="#38BDF8" />
-          <circle cx="109" cy="155" r="1.5" fill="#38BDF8" />
+          {/* Red Subtitle Line 2: & Waterproofing */}
+          <text
+            x="100"
+            y="135"
+            textAnchor="middle"
+            fontFamily="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+            fontWeight="700"
+            fontSize="9"
+            fill="#D32729"
+            letterSpacing="0.2"
+          >
+            &amp; Waterproofing
+          </text>
         </svg>
       </div>
 
-      {/* Brand Text Typography */}
-      {variant !== 'icon' && (
+      {/* Brand Text Typography (PRO badge removed completely) */}
+      {variant !== 'icon' && variant !== 'badge' && (
         <div className="flex flex-col">
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center">
             <span className={`font-heading font-black tracking-tight text-xl sm:text-2xl leading-none ${
               isLight ? 'text-white' : 'text-slate-900'
             }`}>
               DMS
-            </span>
-            <span className="text-xs px-2 py-0.5 rounded-full bg-red-600/10 text-red-600 font-bold uppercase tracking-wider border border-red-600/20">
-              PRO
             </span>
           </div>
           <span className={`text-[11px] sm:text-xs font-bold tracking-tight leading-tight mt-0.5 ${
